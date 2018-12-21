@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context="com.sstudio.sobighor.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="top|center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:paddingEnd="20dp"
+            android:paddingRight="50dp"
+            android:paddingTop="10dp">
+
+            <ImageButton
+                android:id="@+id/infoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_dialog_info" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sobighor_logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/sobighor" />
+
+        <Button
+            android:id="@+id/start_voting_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Enter"
+            android:theme="@style/MyButton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your gmail account will be used to login automatically"
+            android:textSize="8sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/admin"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Officials"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="©sobighar 2017" />
+    </LinearLayout>
+
+</LinearLayout>

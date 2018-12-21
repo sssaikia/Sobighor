@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "870613972671",
+    "firebase_url": "https://sobighor-689f4.firebaseio.com",
+    "project_id": "sobighor-689f4",
+    "storage_bucket": "sobighor-689f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870613972671:android:5d39259386ff4a13",
+        "android_client_info": {
+          "package_name": "com.sstudio.sobighor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870613972671-0tke96ooirrjap5ast1f14b39upnfpvt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sstudio.sobighor",
+            "certificate_hash": "af8191f12b079aed472acf99318d8f3851bbebcb"
+          }
+        },
+        {
+          "client_id": "870613972671-8bnqqf9b2gielb3ra3jlnja8nook70rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM-iwdjnMGn4VHISfEgr8Nj6fMw6ZZlcA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870613972671-8bnqqf9b2gielb3ra3jlnja8nook70rv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

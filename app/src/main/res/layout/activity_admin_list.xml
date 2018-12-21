@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.sstudio.AdminListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="click an entry to remove it from database." />
+
+        <Button
+            android:id="@+id/clearvotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="clear votes"
+            android:theme="@style/MyButton" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/adminlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

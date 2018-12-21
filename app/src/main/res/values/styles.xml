@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/gradiantback</item>
+        <item name="android:colorBackground">@color/dialogback</item>
+    </style>
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#acaab3</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:background">@color/dialogback</item>
+    </style>
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/green</item>
+        <item name="colorButtonNormal">@color/red</item>
+    </style>
+<style name="MyDialogButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#ec0024</item>
+        <item name="colorButtonNormal">#797baf</item>
+    </style>
+
+</resources>

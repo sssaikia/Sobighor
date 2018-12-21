@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.sstudio.AdminActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start or stop voting session." />
+
+            <ToggleButton
+                android:id="@+id/session"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Start voting session"
+                android:theme="@style/MyButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add more participants" />
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="add participant"
+                android:theme="@style/MyButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The name of the event can be changed here." />
+
+            <Button
+                android:id="@+id/event_name"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Enter event name"
+                android:theme="@style/MyButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set the voting round." />
+
+            <Button
+                android:id="@+id/voting_round"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="voting round"
+                android:theme="@style/MyButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The result of the contest is here." />
+
+            <Button
+                android:id="@+id/vote"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="view vote counts"
+                android:theme="@style/MyButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View or delete participants" />
+
+            <Button
+                android:id="@+id/participant_list"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Participant list"
+                android:theme="@style/MyButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New user registration with QR scan" />
+
+            <Button
+                android:id="@+id/setlocationbutton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Register user"
+                android:layout_marginBottom="20dp"
+                android:theme="@style/MyButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set url for the Events/Results images" />
+
+            <Button
+                android:id="@+id/urlButton"
+                android:layout_marginBottom="20dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:theme="@style/MyButton"
+                android:text="Add url" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="set Dynamic texts"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:theme="@style/MyButton"
+                android:id="@+id/setDynamicText"
+                android:layout_marginBottom="20dp"
+                android:text="Open dialog"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="delete all users (action cannot be undone)"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/deleteAllUsers"
+                android:text="remove all user"
+                android:theme="@style/MyButton"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

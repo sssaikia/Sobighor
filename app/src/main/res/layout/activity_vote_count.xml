@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.sstudio.VoteCountActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="15dp"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/pNo"
+            android:hint="Enter participant No."
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/textviewback"
+            android:layout_marginRight="5dp"
+            android:inputType="number" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/srch_button"
+            android:background="@drawable/roundbutton"
+            android:text="search" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vote count"
+        android:id="@+id/resultTV"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+    <ListView
+        android:id="@+id/votecountlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+</LinearLayout>

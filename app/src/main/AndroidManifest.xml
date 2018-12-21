@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sstudio.sobighor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".Sobighor"
+        android:allowBackup="true"
+        android:icon="@drawable/sobighor"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/sobighor"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sstudio.VoteActivity" />
+        <activity android:name="com.sstudio.AdminActivity" />
+        <activity android:name="com.sstudio.AddActivity" />
+        <activity android:name="com.sstudio.VoteCountActivity" />
+        <activity android:name="com.sstudio.AdminListActivity" />
+        <activity android:name="com.sstudio.UpcomingEventsViewActivity" />
+        <activity android:name="com.sstudio.QRScanActivity" />
+        <activity android:name="com.sstudio.Second_layout"></activity>
+    </application>
+
+</manifest>
